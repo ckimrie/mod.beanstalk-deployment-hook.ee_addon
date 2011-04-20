@@ -1,0 +1,119 @@
+<html>
+<head>
+	<title>Remote Files Framework Readme</title>
+	<style type="text/css">
+	/* reset.css */
+	html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+	body {line-height:1.5;}
+	table {border-collapse:separate;border-spacing:0;}
+	caption, th, td {text-align:left;font-weight:normal;}
+	table, td {vertical-align:top;}
+	table th {vertical-align: middle;}
+	blockquote:before, blockquote:after, q:before, q:after {content:"";}
+	blockquote, q {quotes:"" "";}
+	a img {border:none;}
+
+	/* typography.css */
+	html {font-size:100.01%;}
+	body {font-size:85%;color:#222;background:#999;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
+	h1, h2, h3, h4, h5, h6 {font-weight:bold;color:#111;}
+	h1 {font-size:3em;line-height:1;margin-bottom:0.5em; margin-top:50px;}
+	h2 {font-size:2em;margin-bottom:0.75em;}
+	h3 {font-size:1.5em;line-height:1;margin-bottom:1em; border-bottom:1px solid #000; padding-bottom: 10px;}
+	h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em; margin-left: 0.75em;}
+	h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em; margin-left: 2em;}
+	h6 {font-size:1em;font-weight:bold;}
+	h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+	p {margin:0 0 1.5em 2em;}
+	p img.left {float:left;margin:1.5em 1.5em 1.5em 0;padding:0;}
+	p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
+	a:focus, a:hover {color:#000;}
+	a {color:#009;text-decoration:underline;}
+	blockquote {margin:1.5em;color:#666;font-style:italic;}
+	strong {font-weight:bold;}
+	em, dfn {font-style:italic;}
+	dfn {font-weight:bold;}
+	sup, sub {line-height:0;}
+	abbr, acronym {border-bottom:1px dotted #666;}
+	address {margin:0 0 1.5em;font-style:italic;}
+	del {color:#666;}
+	pre {margin:1.5em 0 1.5em 2em;white-space:pre; background-color: #ebebeb; padding: 10px;}
+	pre, code, tt {font:1.1em 'andale mono', 'lucida console', monospace;line-height:1.5;background-color: #ebebeb;}
+	li ul, li ol {margin:0;}
+	ul, ol {margin:0 1.5em 1.5em 0;padding-left:3.333em;}
+	ul {list-style-type:disc;}
+	ol {list-style-type:decimal;}
+	dl {margin:0 0 1.5em 0;}
+	dl dt {font-weight:bold;}
+	dd {margin-left:1.5em;}
+	table {margin-bottom:1.4em;width:100%;}
+	th {font-weight:bold;}
+	thead th {background:#c3d9ff;}
+	th, td, caption {padding:4px 10px 4px 5px;}
+	tr.even td {background:#e5ecf9;}
+	tfoot {font-style:italic;}
+	caption {background:#eee;}
+	.small {font-size:.8em;margin-bottom:1.875em;line-height:1.875em;}
+	.large {font-size:1.2em;line-height:2.5em;margin-bottom:1.25em;}
+	.hide {display:none;}
+	.quiet {color:#666;}
+	.loud {color:#000;}
+	.highlight {background:#ff0;}
+	.added {background:#060;color:#fff;}
+	.removed {background:#900;color:#fff;}
+	.first {margin-left:0;padding-left:0;}
+	.last {margin-right:0;padding-right:0;}
+	.top {margin-top:0;padding-top:0;}
+	.bottom {margin-bottom:0;padding-bottom:0;}
+	
+	div.container {margin: 0 auto; width:950px; background-color: #fff; padding: 20px; border: 1px solid #000; border-top: none; -webkit-box-shadow: 0 3px 6px #666; margin-bottom: 50px;}
+	ol ul {list-style:none;}
+	ol ul h5 { text-decoration: underline; margin-top:10px; margin-bottom:0; margin-left: 0;}
+	ol ul p { margin-left: 10px;}
+	img#logo { float: right;}
+	</style>
+</head>
+<body>
+	
+	
+<div class="container">
+<h1>Beanstalk Web Hook</h1>
+<p>Allows ExpressionEngine cache to be emptied after Beanstalk deployments by using the Beanstalk Web Hooks feature.</p>
+<h2>Info</h2>
+<p>Developed by Moresoda Design Ltd, <a href="http://www.moresoda.co.uk">http://www.moresoda.co.uk</a></p>
+
+
+<h2>Requirements</h2>
+<ul>
+	<li>ExpressionEngine 2.3 +</li>
+</ul>
+
+<h2>Browser Compatibility</h2>
+<ul>
+	<li>Firefox 2+</li>
+	<li>Safari 2+</li>
+	<li>Chrome 3+</li>
+	<li>Opera 9+</li>
+	<li>Internet Explorer 6+</li>
+</ul>
+
+<h2>Installation</h2>
+<ol>
+	<li>Copy the <code>system/expressionengine/third_party/beanstalk_ping</code> folder to your <code>system/expressionengine/third_party/</code> folder.</li>
+	<li>Go to <em>Add-ons &rarr; Modules</em> in the ExpressionEngine control panel and install the module labelled <strong>Beanstalk Web Hook</strong></li>
+	<li>To retrieve your Web Hook URL once the module is installed, go to <em>Add-ons &rarr; Modules</em> and click on <strong>Beanstalk Web Hook</strong>.  You will then be presented with your website's Web Hook URL</li>
+	<li>Copy the Web Hook URL and configure Beanstalk to use this URL for the "Post Release URL" Web Hook.  Instructions can be found here: <a href="http://help.beanstalkapp.com/kb/deployments/web-hooks-for-deployments">http://help.beanstalkapp.com/kb/deployments/web-hooks-for-deployments</a></li>
+</ol>
+
+
+<hr/>
+
+<h2>Change log</h2>
+
+<h4>1.0</h4>
+<ul>
+	<li>Public release</li>
+</ul>
+</div>
+</body>
+</html>
