@@ -1,0 +1,32 @@
+h1. Beanstalk Web Hook
+
+Allows ExpressionEngine cache to be emptied after Beanstalk deployments by using the Beanstalk Web Hooks feature.
+
+h2. Info
+
+Developed by Moresoda Design Ltd, "http://www.moresoda.co.uk":http://www.moresoda.co.uk
+
+h2. Requirements
+
+* ExpressionEngine 2.3 +
+
+h2. Browser Compatibility
+
+* Firefox 2+
+* Safari 2+
+* Chrome 3+
+* Opera 9+
+* Internet Explorer 6+
+
+h2. Installation
+
+# Copy the system/expressionengine/third_party/beanstalk_ping folder to your system/expressionengine/third_party/ folder.
+# Go to Add-ons → Modules in the ExpressionEngine control panel and install the module labelled Beanstalk Web Hook
+# To retrieve your Web Hook URL once the module is installed, go to Add-ons → Modules and click on Beanstalk Web Hook. You will then be presented with your website's Web Hook URL
+# Copy the Web Hook URL and configure Beanstalk to use this URL for the "Post Release URL" Web Hook. Instructions can be found here: http://help.beanstalkapp.com/kb/deployments/web-hooks-for-deployments
+
+h2. Change log
+
+h4. 1.0 
+
+* Public release
