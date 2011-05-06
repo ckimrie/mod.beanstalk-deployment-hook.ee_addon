@@ -1,3 +1,5 @@
+p>. !http://moresoda.co.uk/external_assets/github/moresoda-logo.png(moresoda)!:http://moresoda.co.uk
+
 h1. Beanstalk Web Hook
 
 Allows ExpressionEngine cache to be emptied after Beanstalk deployments by using the Beanstalk Web Hooks feature.
