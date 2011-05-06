@@ -6,7 +6,7 @@ Allows ExpressionEngine cache to be emptied after Beanstalk deployments by using
 
 h2. Info
 
-Developed by Moresoda Design Ltd, "http://www.moresoda.co.uk":http://www.moresoda.co.uk
+Developed by Moresoda Design Ltd, "http://moresoda.co.uk":http://moresoda.co.uk
 
 h2. Requirements
 
