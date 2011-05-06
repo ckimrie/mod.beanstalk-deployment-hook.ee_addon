@@ -1,4 +1,4 @@
-<a href="http://moresoda.co.uk"><img src="http://moresoda.co.uk/external_assets/github/moresoda-logo.png" alt="moresoda" style="float: right" /></a>
+!http://moresoda.co.uk/external_assets/github/moresoda-logo.png(moresoda)!:http://moresoa.co.uk
 
 h1. Beanstalk Web Hook
 
