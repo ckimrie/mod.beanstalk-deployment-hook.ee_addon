@@ -10,7 +10,7 @@ Developed by Moresoda Design Ltd, "http://moresoda.co.uk":http://moresoda.co.uk
 
 h2. Requirements
 
-* ExpressionEngine 2.3 +
+* ExpressionEngine 2.1.3 +
 
 h2. Browser Compatibility
 
