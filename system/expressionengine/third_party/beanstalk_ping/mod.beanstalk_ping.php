@@ -15,7 +15,9 @@ class Beanstalk_ping {
 	
 	public function dump_cache()
 	{
-		$this->EE->functions->clear_caching('all');
+		if ($this->EE->functions->clear_caching('all')) {
+			header("HTTP/1.1 200 OK");
+		}
 	}
 
 }
